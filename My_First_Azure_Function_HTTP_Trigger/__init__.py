@@ -16,7 +16,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     ctime = time.ctime()
     
     # get info from web site
-    df_COVID_Wiki = pd.read_html('https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Deutschland')    
+    df_COVID_Wiki = pd.read_html('https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Deutschland', decimal=',', thousands='.')    
     df_COVID_BUND = df_COVID_Wiki[3]
 
     name = req.params.get('name')
