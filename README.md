@@ -1,4 +1,4 @@
 # This is a Repo for all my Cloud projects
-/Azure 
+/My_First_Azure_Function_HTTP_Trigger --> Azure Fuction as HTTP Trigger and Webscraper
 
-/coming_soon :-)
+/others_coming_soon... :-)
